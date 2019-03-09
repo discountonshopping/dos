@@ -23,17 +23,18 @@
 }
 
 .icon img{
-/* 	float: initial !important;
- */	width: 50px !important;
-/* 	text-align: center !important;
- */}
+ 	float: initial !important;
+	width: 35px !important;
+	height: 35px !important;
+	text-align: center !important;
+}
 
 .shopping_content_left{
 	float: left;
 	width: 25%;
 }
 .top img{
-	width: 35px;
+	width: 30px;
 	float: left;
 }
 .site_content{
@@ -42,8 +43,10 @@
 	padding: 10px 0px 10px 0px;
 	text-align: center !important;
 }
+
+
 .yellow img{
-	width: 35px;
+	width: 30px;
 	float: left;
 	margin-left:33.33%;
 
@@ -52,4 +55,27 @@
 	float: left;
 	margin: 8px 0px;
 	
+}
+.name a{
+    text-decoration: none;
+    color: #2a2a2a;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.name p {
+    font-size: 12px !important;
+    padding: 8px 0px 0px 0px !important;
+    color: #2a2a2a;
+    width: 100%;
+}
+
+.site_content img {
+    float: left;
+    width: 30px;
+    margin: 0px 8px 0px 10px;
+    text-align: center !important;
 }
