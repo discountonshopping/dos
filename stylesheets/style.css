@@ -79,3 +79,11 @@ a:-webkit-any-link {
     margin: 0px 8px 0px 10px;
     text-align: center !important;
 }
+
+ a {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: #2a2a2a;
+}
