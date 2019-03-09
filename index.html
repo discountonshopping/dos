@@ -1,210 +1,485 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ -->
 <link href="./stylesheets/style.css" rel="stylesheet" type="text/css">
 <link href="./stylesheets/awesom.css" rel="stylesheet">
 <title>Discount On Shopping</title>
 </head>
+<style>
+#more {
+	display: none;
+}
+</style>
+<script>
+	function myFunction() {
+		var dots = document.getElementById("dots");
+		var moreText = document.getElementById("more");
+		var btnText = document.getElementById("myBtn");
+
+		if (dots.style.display === "none") {
+			dots.style.display = "inline";
+			btnText.innerHTML = "more";
+			moreText.style.display = "none";
+		} else {
+			dots.style.display = "none";
+			btnText.innerHTML = "less";
+			moreText.style.display = "inline";
+		}
+	}
+</script>
+
 <body>
-	<div class="header_topview yellow" align="center">
-		<img src="./images/shop.png">
-		<p>Shopping</p>
+	
+	<div>
+		<h1 class="w3-xxlarge">Shopping</h1>
 	</div>
-
-
+	<!--Shopping  -->
 	<div class="site_content">
-		<div>
+		<div id="rcorners">
+			<div class="shopping_content_left">
+				<div class="icon">
+					<a
+						href="https://www.amazon.in/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=sujithkumar0f-21&linkId=2cd7f56db091a76658209422be2be3f3&language=en_IN"><img
+						src="./images/amazon.png"> </a>
+				</div>
+
+				<div class="name">
+					<p>
+						<a
+							href="https://www.amazon.in/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=sujithkumar0f-21&linkId=2cd7f56db091a76658209422be2be3f3&language=en_IN">Amazon</a>
+					</p>
+				</div>
+			</div>
+			<div class="shopping_content_left">
+				<div class="icon">
+					<a href="https://www.flipkart.com/?affid=sujithkumarn99"><img
+						src="./images/flipkart.png"> </a>
+				</div>
+
+				<div class="name">
+					<p>
+						<a href="https://www.flipkart.com/?affid=sujithkumarn99">Flipkart</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="shopping_content_left">
+				<div class="icon">
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.myntra.com%2F"><img
+						src="./images/myntra.png"> </a>
+				</div>
+
+				<div class="name">
+					<p>
+						<a
+							href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.myntra.com%2F">Myntra</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="shopping_content_left">
+				<div class="icon">
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fpaytmmall.com"><img
+						src="./images/paytm.png"> </a>
+				</div>
+
+				<div class="name">
+					<p>
+						<a
+							href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fpaytmmall.com">PayTm</a>
+					</p>
+				</div>
+			</div>
+
+
+			<div class="shopping_content_left">
+				<div class="icon">
+					<a href="https://ad.admitad.com/g/f9pyfv0or604e1df404b22654840ad/"><img
+						src="./images/tatacliq.png"> </a>
+				</div>
+
+				<div class="name">
+					<p>
+						<a href="https://ad.admitad.com/g/f9pyfv0or604e1df404b22654840ad/">TataCliq</a>
+					</p>
+				</div>
+			</div>
+
+
+			<div class="shopping_content_left">
+				<div class="icon">
+					<a href="https://ad.admitad.com/g/ts28ewplvv04e1df404bae6cdc95a5/"><img
+						src="./images/shopperstop.png"> </a>
+				</div>
+
+				<div class="name">
+					<p>
+						<a href="https://ad.admitad.com/g/ts28ewplvv04e1df404bae6cdc95a5/">Shopperstop</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="shopping_content_left">
+				<div class="icon">
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.ajio.com%2F"><img
+						src="./images/ajio.png"> </a>
+				</div>
+
+				<div class="name">
+					<p>
+						<a
+							href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.ajio.com%2F">Ajio</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="shopping_content_left">
+				<div class="icon">
+					<a href="https://ad.admitad.com/g/tzj7koxn9z04e1df404be01e0df27d/"><img
+						src="./images/jockey.png"> </a>
+				</div>
+
+				<div class="name">
+					<p>
+						<a href="https://ad.admitad.com/g/tzj7koxn9z04e1df404be01e0df27d/">Jockey</a>
+					</p>
+				</div>
+			</div>
+			<div>
+				<!-- 	<span id="dots">...</span> 
+				<span id="more"> -->
+
+				<div id="rcornersmore">
+					<div class="shopping_content_left">
+						<div class="icon">
+							<a
+								href="https://ad.admitad.com/g/6muhc4mlrf04e1df404b76041b2588/"><img
+								src="./images/limeroad.png"> </a>
+						</div>
+
+						<div class="name">
+							<p>
+								<a
+									href="https://ad.admitad.com/g/6muhc4mlrf04e1df404b76041b2588/">LimeRoad</a>
+							</p>
+						</div>
+					</div>
+
+					<div class="shopping_content_left">
+						<div class="icon">
+							<a
+								href="https://ad.admitad.com/g/th1bw6vg5q04e1df404b8316cf038a/"><img
+								src="./images/jabong.png"> </a>
+						</div>
+
+						<div class="name">
+							<p>
+								<a
+									href="https://ad.admitad.com/g/th1bw6vg5q04e1df404b8316cf038a/">Jabong</a>
+							</p>
+						</div>
+					</div>
+
+					<div class="shopping_content_left">
+						<div class="icon">
+							<a
+								href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.aliexpress.com%2F"><img
+								src="./images/aliexpress.png"> </a>
+						</div>
+
+						<div class="name">
+							<p>
+								<a
+									href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.aliexpress.com%2F">Aliexpress</a>
+							</p>
+						</div>
+					</div>
+
+					<div class="shopping_content_left">
+						<div class="icon">
+							<a
+								href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.spoyl.in%2F"><img
+								src="./images/spoyl.png"> </a>
+						</div>
+
+						<div class="name">
+							<p>
+								<a
+									href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.spoyl.in%2F">Spoyl</a>
+							</p>
+						</div>
+					</div>
+					<div class="shopping_content_left">
+						<div class="icon">
+							<a
+								href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.lifestylestores.com%2F"><img
+								src="./images/lifestyle.png"> </a>
+						</div>
+
+						<div class="name">
+							<p>
+								<a
+									href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.lifestylestores.com%2F">LifeStyle</a>
+							</p>
+						</div>
+					</div>
+					<div class="shopping_content_left">
+						<div class="icon">
+							<a
+								href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.snapdeal.com%2F"><img
+								src="./images/snapdeal.png"> </a>
+						</div>
+
+						<div class="name">
+							<p>
+								<a
+									href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.snapdeal.com%2F">snapdeal</a>
+							</p>
+						</div>
+					</div>
+
+					<div class="shopping_content_left">
+						<div class="icon">
+							<a
+								href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.fabindia.com%2F"><img
+								src="./images/fabindia.png"> </a>
+						</div>
+
+						<div class="name">
+							<p>
+								<a
+									href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.fabindia.com%2F">Fabindia</a>
+							</p>
+						</div>
+					</div>
+
+
+					<div class="shopping_content_left">
+						<div class="icon">
+							<a
+								href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.ezmall.com%2F"><img
+								src="./images/ezmall.png"> </a>
+						</div>
+
+						<div class="name">
+							<p>
+								<a
+									href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.ezmall.com%2F">EZMall</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				</span>
+			</div>
+
+			<!-- 			<button onclick="myFunction()" id="myBtn">more</button>
+ -->
+		</div>
+		<br> <br>
+		<div align="center">
+			<h1>Women's wear</h1>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a href="https://ad.admitad.com/g/4gxko08abw04e1df404bf2e59b1932/"><img
+					src="./images/biba.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a href="https://ad.admitad.com/g/4gxko08abw04e1df404bf2e59b1932/">Biba</a>
+				</p>
+			</div>
+		</div>
 		<div class="shopping_content_left">
 			<div class="icon">
 				<a
-					href="https://www.amazon.in/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=sujithkumar0f-21&linkId=2cd7f56db091a76658209422be2be3f3&language=en_IN"><img
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.andindia.com"><img
+					src="./images/andindia.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.andindia.com">Andindia</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.clovia.com%2"><img
+					src="./images/clovia.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.clovia.com%2">clovia</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.shein.in%2F"><img
+					src="./images/shein.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.shein.in%2F">Shein</a>
+				</p>
+			</div>
+		</div>
+			<br><br><br><br><br><br>
+			
+			<div id="utility">
+			<div>
+			<h1>Bill Pay</h1>
+			</div>
+			<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://amzn.to/2VOZmqw"><img
 					src="./images/amazon.png"> </a>
 			</div>
 
 			<div class="name">
 				<p>
 					<a
-						href="https://www.amazon.in/ref=as_li_ss_tl?ie=UTF8&linkCode=ll2&tag=sujithkumar0f-21&linkId=2cd7f56db091a76658209422be2be3f3&language=en_IN">Amazon</a>
+						href="https://amzn.to/2VOZmqw">Amazon Pay</a>
 				</p>
 			</div>
 		</div>
-		<div class="shopping_content_left">
-			<div class="icon">
-				<a href="https://www.flipkart.com/?affid=sujithkumarn99"><img
-					src="./images/flipkart.png"> </a>
-			</div>
-
-			<div class="name">
-				<p>
-					<a href="https://www.flipkart.com/?affid=sujithkumarn99">Flipkart</a>
-				</p>
-			</div>
-		</div>
-		<div class="shopping_content_left">
-			<div class="icon">
-				<a href="https://ad.admitad.com/g/s04yc4g9ry04e1df404b62ee748b0a/"><img
-					src="./images/firstcry.jpg"> </a>
-			</div>
-
-			<div class="name">
-				<p>
-					<a href="https://ad.admitad.com/g/s04yc4g9ry04e1df404b62ee748b0a/">FirstCry</a>
-				</p>
-			</div>
-		</div>
-		
-		<div class="shopping_content_left">
-			<div class="icon">
-				<a href="https://www.paytm.com"><img
-					src="./images/paytm.png"> </a>
-			</div>
-
-			<div class="name">
-				<p>
-					<a href="https://www.paytm.com">PayTm</a>
-				</p>
-			</div>
-		</div>
-		</div>
-		<br><br>
-		<div>
 		<div class="shopping_content_left">
 			<div class="icon">
 				<a
-					href="http://bigbasket.go2cloud.org/aff_c?offer_id=88&aff_id=1765"><img
-					src="./images/bigbasket.jpg"> </a>
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.mobikwik.com%2F"><img
+					src="./images/mobikwik.png"> </a>
 			</div>
 
 			<div class="name">
 				<p>
 					<a
-						href="http://bigbasket.go2cloud.org/aff_c?offer_id=88&aff_id=1765">BigBasket</a>
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.mobikwik.com%2F">Mobikwik</a>
 				</p>
 			</div>
 		</div>
 		<div class="shopping_content_left">
 			<div class="icon">
-				<a href="https://ad.admitad.com/g/f9pyfv0or604e1df404b22654840ad/"><img
-					src="./images/tatacliq.png"> </a>
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.freecharge.in%2F"><img
+					src="./images/freecharge.png"> </a>
 			</div>
 
 			<div class="name">
 				<p>
-					<a href="https://ad.admitad.com/g/f9pyfv0or604e1df404b22654840ad/">TataCliq</a>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.freecharge.in%2F">Freecharge</a>
 				</p>
 			</div>
 		</div>
 		<div class="shopping_content_left">
 			<div class="icon">
-				<a href="https://ad.admitad.com/g/3a063wka0y04e1df404b6816d5588c/"><img
-					src="./images/pepperfry.jpg"> </a>
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fpaytm.com%2F"><img
+					src="./images/paytm.png"> </a>
 			</div>
 
 			<div class="name">
 				<p>
-					<a href="https://ad.admitad.com/g/3a063wka0y04e1df404b6816d5588c/">PepperFry</a>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fpaytm.com%2F">PayTm</a>
 				</p>
 			</div>
 		</div>
-
-		<div class="shopping_content_left">
-			<div class="icon">
-				<a href="https://ad.admitad.com/g/ts28ewplvv04e1df404bae6cdc95a5/"><img
-					src="./images/shopperstop.png"> </a>
+			
+			
 			</div>
-
-			<div class="name">
-				<p>
-					<a href="https://ad.admitad.com/g/ts28ewplvv04e1df404bae6cdc95a5/">Shopperstop</a>
-				</p>
-			</div>
-		</div>
-		</div>
-       <br><br>
-	   <div>
-		<div class="shopping_content_left">
-			<div class="icon">
-				<a href="https://ad.admitad.com/g/gobb106sd904e1df404ba663530cb9/"><img
-					src="./images/ajio.png"> </a>
-			</div>
-
-			<div class="name">
-				<p>
-					<a href="https://ad.admitad.com/g/gobb106sd904e1df404ba663530cb9/">Ajio</a>
-				</p>
-			</div>
-		</div>
-
-		<div class="shopping_content_left">
-			<div class="icon">
-				<a href="https://ad.admitad.com/g/tzj7koxn9z04e1df404be01e0df27d/"><img
-					src="./images/jockey.png"> </a>
-			</div>
-
-			<div class="name">
-				<p>
-					<a href="https://ad.admitad.com/g/tzj7koxn9z04e1df404be01e0df27d/">Jockey</a>
-				</p>
-			</div>
-		</div>
-
-		<div class="shopping_content_left">
-			<div class="icon">
-				<a href="https://ad.admitad.com/g/6muhc4mlrf04e1df404b76041b2588/"><img
-					src="./images/limeroad.png"> </a>
-			</div>
-
-			<div class="name">
-				<p>
-					<a href="https://ad.admitad.com/g/6muhc4mlrf04e1df404b76041b2588/">LimeRoad</a>
-				</p>
-			</div>
-		</div>
-
-		<div class="shopping_content_left">
-			<div class="icon">
-				<a href="https://ad.admitad.com/g/th1bw6vg5q04e1df404b8316cf038a/"><img
-					src="./images/jabong.png"> </a>
-			</div>
-
-			<div class="name">
-				<p>
-					<a href="https://ad.admitad.com/g/th1bw6vg5q04e1df404b8316cf038a/">Jabong</a>
-				</p>
-			</div>
-		</div>
-		</div>
-		<br><br>
+			
+			
+	<div name="baby">		
 		<div>
-     <div class="shopping_content_left">
-		<div class="icon">
-			<a href="https://ad.admitad.com/g/4gxko08abw04e1df404bf2e59b1932/"><img
-				src="./images/biba.png"> </a>
+			<h1>Baby</h1>
 		</div>
-		
+
+	</div>
+	<div class="shopping_content_left">
+		<div class="icon">
+			<a
+				href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=http%3A%2F%2Fwww.firstcry.com%2F"><img
+				src="./images/firstcry.png"> </a>
+		</div>
+
 		<div class="name">
 			<p>
-				<a href="https://ad.admitad.com/g/4gxko08abw04e1df404bf2e59b1932/">Biba</a>
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=http%3A%2F%2Fwww.firstcry.com%2F">Firstcry</a>
 			</p>
 		</div>
 	</div>
+	<div class="shopping_content_left">
+		<div class="icon">
+			<a
+				href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=http%3A%2F%2Fwww.kohls.com%2F"><img
+				src="./images/kolhs.png"> </a>
+		</div>
 
-     <div class="shopping_content_left">
-
-	<div class="icon">
-		<a href="https://ad.admitad.com/g/0pgslvb2vv04e1df404bc26e6ba059/"><img
-			src="./images/decathlon.png"> </a>
+		<div class="name">
+			<p>
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=http%3A%2F%2Fwww.kohls.com%2F">Kohl's</a>
+			</p>
+		</div>
 	</div>
+	<div class="shopping_content_left">
+		<div class="icon">
+			<a
+				href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.hopscotch.in%2F"><img
+				src="./images/hopscotch.png"> </a>
+		</div>
 
-	<div class="name">
-		<p>
-			<a href="https://ad.admitad.com/g/0pgslvb2vv04e1df404bc26e6ba059/">Decathlon</a>
-		</p>
+		<div class="name">
+			<p>
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.hopscotch.in%2F">hopscotch</a>
+			</p>
+		</div>
 	</div>
-	</div>	
+	<div class="shopping_content_left">
+		<div class="icon">
+			<a
+				href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.magiccrate.in%2Finfants"><img
+				src="./images/magiccrate.png"> </a>
+		</div>
+
+		<div class="name">
+			<p>
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.magiccrate.in%2Finfants">Magic
+					Crate</a>
+			</p>
+		</div>
+	</div>
+	</div>
+	
+	
+	
+
+	<!-- Food items -->
+	<div>
+		<h1>Food</h1>
+	</div>
+	<div id="rcornersf">
+
 		<div class="shopping_content_left">
 			<div class="icon">
 				<a href="https://ad.admitad.com/g/ta366jiz5o04e1df404b74c5fc7d3a/"><img
@@ -231,9 +506,7 @@
 				</p>
 			</div>
 		</div>
-		</div>
-		<br><br>
-		<div>
+
 
 		<div class="shopping_content_left">
 			<div class="icon">
@@ -243,51 +516,664 @@
 
 			<div class="name">
 				<p>
-					<a href="https://ad.admitad.com/g/amg5q1j3lg04e1df404b0e6a7d725a/">MecDonald's</a>
+					<a href="https://ad.admitad.com/g/amg5q1j3lg04e1df404b0e6a7d725a/">McDonald's</a>
 				</p>
 			</div>
 		</div>
-		
+
 		<div class="shopping_content_left">
 			<div class="icon">
-				<a href="https://ad.admitad.com/g/jsqez97yz704e1df404bf25a54fe7c/"><img
-					src="./images/makemytrip.png"> </a>
+				<a href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.zomato.com%2Fhyderabad"><img
+					src="./images/zomato.png"> </a>
 			</div>
 
 			<div class="name">
 				<p>
-					<a href="https://ad.admitad.com/g/jsqez97yz704e1df404bf25a54fe7c/">MakeMyTrip</a>
+					<a href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.zomato.com%2Fhyderabad">Zomato</a>
 				</p>
 			</div>
 		</div>
-		
+
 		<div class="shopping_content_left">
 			<div class="icon">
-				<a href="https://ad.admitad.com/g/jqvq0rzz8p04e1df404b5c7d2eed69/"><img
+				<a href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fonline.pizzahut.co.in%2F"><img
 					src="./images/netmeds.png"> </a>
 			</div>
 
 			<div class="name">
 				<p>
-					<a href="https://ad.admitad.com/g/jqvq0rzz8p04e1df404b5c7d2eed69/">NetMeds</a>
+					<a href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fonline.pizzahut.co.in%2F">PizzaHut</a>
 				</p>
 			</div>
 		</div>
 
 		<div class="shopping_content_left">
 			<div class="icon">
-				<a href="http://medlifeinternational.go2cloud.org/aff_c?offer_id=271&aff_id=5767"><img
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fonline.kfc.co.in%2Fhome"><img
+					src="./images/kfc.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fonline.kfc.co.in%2Fhome">KFC</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.ubereats.com%2Fen-IN%2F"><img
+					src="./images/ubereats.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.ubereats.com%2Fen-IN%2F">Uber Eats</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.bigbasket.com"><img
+					src="./images/bigbasket.jpg"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.bigbasket.com">Bigbasket</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<br><br>	<br><br>
+		<br><br>
+		<br><br>
+		<br><br>
+	
+	
+	<div>
+	<h1>Services</h1>
+	</div>
+	<div>
+	<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.cashify.in%2F"><img
+					src="./images/cashify.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.cashify.in%2F">Cashify</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.housejoy.in%2F"><img
+					src="./images/housejoy.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.housejoy.in%2F">Housejoy</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.rentomojo.com"><img
+					src="./images/rentomojo.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.rentomojo.com">Rentomojo</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.rentickle.com%2F"><img
+					src="./images/rentikle.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.rentickle.com%2F">Rentikle</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.zoomcar.com%2F"><img
+					src="./images/zoomcar.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.zoomcar.com%2F">Zoomcar</a>
+				</p>
+			</div>
+		</div>	
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.circleone.in%2F"><img
+					src="./images/circleone.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.circleone.in%2F">CircleOne</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.bigrock.in"><img
+					src="./images/bigrock.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.bigrock.in">BigRock</a>
+				</p>
+			</div>
+		</div>
+		
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.urbanclap.com%2F"><img
+					src="./images/urbanclap.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.urbanclap.com%2F">Urban Clap</a>
+				</p>
+			</div>
+		</div>
+		<br><br>		<br><br>
+				<br><br>
+				<br><br>
+				
+		<!-- Health care -->	
+		<div>
+		<h1 align="center">Health care</h1>
+		</div>	
+		
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="http://medlifeinternational.go2cloud.org/aff_c?offer_id=271&aff_id=5767"><img
 					src="./images/medlife.png"> </a>
 			</div>
 
 			<div class="name">
 				<p>
-					<a href="http://medlifeinternational.go2cloud.org/aff_c?offer_id=271&aff_id=5767">MedLife</a>
+					<a
+						href="http://medlifeinternational.go2cloud.org/aff_c?offer_id=271&aff_id=5767">Medlife</a>
 				</p>
 			</div>
 		</div>
-		<div>
-		<br><br>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.1mg.com%2F"><img
+					src="./images/1mg.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.1mg.com%2F">1MG</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.netmeds.com%2F"><img
+					src="./images/netmeds.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.netmeds.com%2F">NetMeds</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.phonegap.rxpal"><img
+					src="./images/pharmeasy.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.phonegap.rxpal">PharmEasy</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fshop.medlife.com%2F"><img
+					src="./images/medlifeshop.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fshop.medlife.com%2F">Medlife Shop</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.himalayastore.com"><img
+					src="./images/himalaya.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.himalayastore.com">Himalaya</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.durexindia.com"><img
+					src="./images/durex.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.durexindia.com">Durex</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.beardo.in"><img
+					src="./images/beardo.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.beardo.in">Beardo</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.gonoise.com"><img
+					src="./images/gonoise.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.gonoise.com">Gonoise</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.ustraa.com%2F"><img
+					src="./images/ustraa.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.ustraa.com%2F">Ustraa</a>
+				</p>
+			</div>
+		</div>
+			<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.cure.fit%2F"><img
+					src="./images/cult.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.cure.fit%2F">Cult.fit</a>
+				</p>
+			</div>
+		</div>
+		<br><br>		<br><br>
+				<br><br>
+				<br><br>
+				<br><br>
+				<br><br>
+				<br><br>
+		
 	</div>
+	<!--travel  -->
+	<div align="center">
+		<h1 align="center">Travel</h1>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.makemytrip.com%2Fflights"><img
+					src="./images/makemytrip.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.makemytrip.com%2Fflights">MakeMytrip</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.booking.com%2Findex.html"><img
+					src="./images/hotels.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.booking.com%2Findex.html">Hotels</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.cleartrip.com%2F"><img
+					src="./images/cleartrip.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.cleartrip.com%2F">Cleartrip</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.easemytrip.com%2Fflights.html"><img
+					src="./images/easemytrip.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.easemytrip.com%2Fflights.html">Easymytrip</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.fabhotels.com%2F"><img
+					src="./images/fabhotels.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.fabhotels.com%2F">Fabhotels</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.goibibo.com%2Fflights%2F"><img
+					src="./images/goibibo.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.goibibo.com%2Fflights%2F">Goibibo</a>
+				</p>
+			</div>
+		</div>
+		
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.jetairways.com%2FEN%2FIN%2FHome.aspx"><img
+					src="./images/jetairways.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.jetairways.com%2FEN%2FIN%2FHome.aspx">JetAirways</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.mybustickets.in%2F"><img
+					src="./images/mybustickets.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.mybustickets.in%2F">Mybusticket</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.oyorooms.com%2F"><img
+					src="./images/oyo.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.oyorooms.com%2F">OYO</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.olacabs.com%2F"><img
+					src="./images/ola.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.olacabs.com%2F">Ola</a>
+				</p>
+			</div>
+		</div>
+		
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.yatra.com%2F"><img
+					src="./images/yatra.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.yatra.com%2F">Yatra</a>
+				</p>
+			</div>
+		</div>
+			<br><br>		<br><br>
+				<br><br>
+				<br><br>
+				<br><br>
+				<br><br>
+				<br><br>
+		
+	</div>
+	<!--Apparels  -->
+	<div align="center">
+		<h1 align="center">Entertinement</h1>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.primevideo.com%2F"><img
+					src="./images/oyo.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.primevideo.com%2F">AmazonPrime video</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fin.bookmyshow.com%2F"><img
+					src="./images/oyo.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fin.bookmyshow.com%2F">BookMyShow</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.beyondenough.in%2F"><img
+					src="./images/oyo.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.beyondenough.in%2F">Beyond Enough</a>
+				</p>
+			</div>
+		</div>
+		<div class="shopping_content_left">
+			<div class="icon">
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fmoviecardindia.com%2Fbuy-movie-card%2FSACPM01"><img
+					src="./images/oyo.png"> </a>
+			</div>
+
+			<div class="name">
+				<p>
+					<a
+						href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fmoviecardindia.com%2Fbuy-movie-card%2FSACPM01">Moviecards</a>
+				</p>
+			</div>
+		</div>
+		<!--Electronics  -->
+	<div>
+		<h1>Electronics</h1>
+	</div>
+	
+		<div class="shopping_content_left">
+		<div class="icon">
+			<a
+				href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=http%3A%2F%2Fwww.dell.com"><img
+				src="./images/dell.png"> </a>
+		</div>
+
+		<div class="name">
+			<p>
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=http%3A%2F%2Fwww.dell.com">Dell</a>
+			</p>
+		</div>
+	</div>
+		<div class="shopping_content_left">
+		<div class="icon">
+			<a
+				href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.hpshopping.in%2F"><img
+				src="./images/hp.png"> </a>
+		</div>
+
+		<div class="name">
+			<p>
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.hpshopping.in%2F">Hp</a>
+			</p>
+		</div>
+	</div>
+		<div class="shopping_content_left">
+		<div class="icon">
+			<a
+				href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.samsung.com"><img
+				src="./images/samsung.png"> </a>
+		</div>
+
+		<div class="name">
+			<p>
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.samsung.com">Samsung</a>
+			</p>
+		</div>
+	</div>
+		<div class="shopping_content_left">
+		<div class="icon">
+			<a
+				href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.lenovo.com%2Fin%2Fen%2F"><img
+				src="./images/lenovo.png"> </a>
+		</div>
+
+		<div class="name">
+			<p>
+				<a
+					href="https://linksredirect.com/?pub_id=51392CL46338&source=linkkit&url=https%3A%2F%2Fwww.lenovo.com%2Fin%2Fen%2F">Lenovo</a>
+			</p>
+		</div>
+	</div>
+	
+
 </body>
 </html>
